@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Swarm - Example</title>
+
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<div id="swarmContainer" class="swarmContainer"></div>
+
+  <script src="../Swarm.min.js"></script>
+  <script>
+    var swarm = new Swarm({
+      element: document.getElementById('swarmContainer'),
+      backgroundColor: '#000',
+      numberOfParticles: 500,
+      colors: ['#105B63', '#FFD34E', '#DB9E36', '#BD4932', '#FFFFFF'],
+      speed: 1,
+      minSize: 3,
+      maxSize: 5
+    });
+  </script>
+
+</body>
+</html>
