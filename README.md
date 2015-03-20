@@ -2,6 +2,8 @@
 
 A beautiful swarm of pixels in your browser using Javascript!
 
+![Swarm](screenshot.gif?raw=true)
+
 ## Install
 
 Install Swarm by cloning / downloading this repository and then move the Swarm.js (or Swarm.min.js) file to your project's folder.
